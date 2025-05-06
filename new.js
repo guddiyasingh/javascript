@@ -17,3 +17,17 @@ console.log(typeof a, typeof b ,typeof c);
 
 // const a1 = 6;
 // a1 = a1+1; // Not Allowed because a1 is constant
+
+
+
+
+
+let x = "Harry bhai";
+let y = 22;
+let z = 3.55;
+const w =true;
+let q = undefined;
+let r = null;
+
+console.log(x,y,z,w,q,r)
+console.log(typeof x,typeof y,typeof z,typeof p,typeof q, typeof r)
