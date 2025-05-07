@@ -94,3 +94,4 @@ book:"kithab",
 pen:"klm"
 
 }
+console.log(dec)
