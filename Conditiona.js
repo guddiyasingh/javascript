@@ -42,4 +42,9 @@ if (age >=10 && age <= 20) {
 
 else {
     console.log("THis age is not lies between 10 and 20")
-}
+};
+
+
+// Demonstrate the use of switch case statments in javascript
+
+//Write a javascript program to find wheter a number is Divisible by 2 and 3
