@@ -29,3 +29,17 @@ b= 8;
 let c = a > b ? (a - b) : (b-a);
 
 console.log(c)
+
+
+// Use logical operators to find whether the age of a person lies between 10 and 20 ?
+
+let age1 = 15;
+
+if (age >=10 && age <= 20) {
+
+    console.log("this age is lies between 10 and 20");
+}
+
+else {
+    console.log("THis age is not lies between 10 and 20")
+}
