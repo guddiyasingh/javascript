@@ -71,3 +71,11 @@ if(n2%2===0 || n2%3==0){
 else{
     console.log("n2 is not divisible by 2 or 3")
 }
+
+
+// Print "You can drive" or you can't drive based on age being grater than 10 using ternary operator
+
+let age2 = 12
+
+let D = age2 > 10 ? "you can drive" : "you can't drive";
+console.log(D)
