@@ -48,3 +48,14 @@ else {
 // Demonstrate the use of switch case statments in javascript
 
 //Write a javascript program to find wheter a number is Divisible by 2 and 3
+
+
+let n1 = prompt("Enter any number");
+
+if(n1%2==0 && n1%3==0){
+    console.log("n1 is divisible by 2 and 3")
+
+}
+else {
+    console.log("n1 not divisible by 2 and 3")
+}
