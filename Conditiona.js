@@ -50,12 +50,24 @@ else {
 //Write a javascript program to find wheter a number is Divisible by 2 and 3
 
 
-let n1 = prompt("Enter any number");
+// let n1 = prompt("Enter any number");
 
-if(n1%2==0 && n1%3==0){
-    console.log("n1 is divisible by 2 and 3")
+// if(n1%2==0 && n1%3==0){
+//     console.log("n1 is divisible by 2 and 3")
 
+// }
+// else {
+//     console.log("n1 not divisible by 2 and 3")
+// }
+
+//Write a javascript program to find whether a number is Divisible by either 2 or 3.
+
+let n2 = 11;
+
+if(n2%2===0 || n2%3==0){
+    console.log("n2 is divisible by 2 or 3")
 }
-else {
-    console.log("n1 not divisible by 2 and 3")
+
+else{
+    console.log("n2 is not divisible by 2 or 3")
 }
