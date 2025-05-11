@@ -26,3 +26,12 @@ for (const c of "Harry") {
 
     console.log(c)
 }
+
+
+let i = 0;
+
+while(i<6) {
+
+    console.log(i)
+    i++;
+}
