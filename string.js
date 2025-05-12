@@ -12,3 +12,10 @@ let real_name = "Harry"
 let friend = "Rohan"
 console.log("His name is " + real_name + "and his friends name is" + friend)
 console.log(`His name is ${real_name} and his friends name is ${friend}`)
+
+
+let b ="Shivam"
+console.log(b.toUpperCase())
+console.log(b.toLocaleLowerCase())
+console.log(b.length());
+console.log(b.slice(1,4))
