@@ -17,5 +17,9 @@ console.log(`His name is ${real_name} and his friends name is ${friend}`)
 let b ="Shivam"
 console.log(b.toUpperCase())
 console.log(b.toLocaleLowerCase())
-console.log(b.length());
-console.log(b.slice(1,4))
+console.log(b.length);
+console.log(b.slice(1, 4));
+console.log(b.slice(1));
+
+console.log(b.replace("Sh", "77"))
+console.log(b.concat(a, "Aishwariya","Rahul" ,"Priya"))
