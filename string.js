@@ -7,3 +7,8 @@ console.log(a[4]);
 console.log(a[5]);
 
 console.log(a.length)
+
+let real_name = "Harry"
+let friend = "Rohan"
+console.log("His name is " + real_name + "and his friends name is" + friend)
+console.log(`His name is ${real_name} and his friends name is ${friend}`)
