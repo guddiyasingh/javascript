@@ -11,10 +11,22 @@ a.map ((value, index, array) =>{
  
     
     let arr = [1,13,24,3,6]
-    let newArr = []
-    for (let index = 0; index < arr.length; index++) {
-        const element = arr[index];
-        newArr.push(element**2)
-    }
+    // let newArr = []
+    // for (let index = 0; index < arr.length; index++) {
+    //     const element = arr[index];
+    //     newArr.push(element**2)
+    // }
+    // console.log(newArr)
+
+    let newArr = arr.map((e)=>{
+        return e**2
+    })
+
     console.log(newArr)
+
+    let add =arr.map((m)=>{
+        return m+6
+    })
+    console.log(add)
+
      
