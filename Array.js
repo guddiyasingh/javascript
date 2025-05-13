@@ -48,8 +48,13 @@ let obj = {
 for (const key in obj) {
     if (Object.prototype.hasOwnProperty.call(obj, key)) {
         const element = obj[key];
+        console.log(obj)
         
     }
 }
 
-console.log(obj)
+for (const iterator of a) {
+    
+    console.log(iterator)
+}
+
