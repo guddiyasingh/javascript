@@ -29,4 +29,16 @@ a.map ((value, index, array) =>{
     })
     console.log(add)
 
+
+    const greaterThanSeven = (e)=>{
+        if(e>7){
+
+            return true
+        }
+        return false
+        }
+
+    const filter =a.filter(greaterThanSeven)
+    console.log(filter)
+
      
