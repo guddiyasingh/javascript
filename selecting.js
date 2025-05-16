@@ -1,4 +1,8 @@
 console.log("Harry")
 
-let bhupenderaJogi = document.getElementsByClassName("box")
-console.log(bhupenderaJogi);
+// let bhupenderaJogi = document.getElementsByClassName("box")
+// console.log(bhupenderaJogi);
+
+// bhupenderaJogi[2].style.backgroundColor = "red"
+
+document.getElementById("redbox").style.backgroundColor="red"
