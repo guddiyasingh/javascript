@@ -5,4 +5,11 @@ console.log("Harry")
 
 // bhupenderaJogi[2].style.backgroundColor = "red"
 
-document.getElementById("redbox").style.backgroundColor="red"
+// document.getElementById("redbox").style.backgroundColor="red"
+
+// console.log(document.querySelectorAll(".box"))
+// document.querySelectorAll(".box").style.backgroundColor = "green";
+
+document.querySelectorAll(".box").forEach(e =>{
+    e.style.backgroundColor = "green"
+})
