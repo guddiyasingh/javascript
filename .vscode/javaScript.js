@@ -12,3 +12,6 @@ document.querySelector(".container").before(div);
 document.querySelector(".box").remove()
 // undefiend
 document.querySelector(".container").classList
+document.querySelector(".container").className
+document.querySelector(".container").classList.add("harry")
+document.querySelector(".container").classList.remove("harry")
