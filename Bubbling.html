@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+  <style>
+    .child{
+
+        background-color: aliceblue;
+        border: 2px solid black;
+        padding: ;
+    }
+  </style>
 </head>
 <body>
     <div class="container">
@@ -18,9 +27,14 @@
             alert("Child Was clicked")
         })
        
-        document.querySelector(".child").addEventListener("contextmenu", ()=>{
+        document.querySelector(".childContainer").addEventListener("click", ()=>{
+            alert("ChildContainer Was clicked")
+        })
+
+        document.querySelector(".child").addEventListener("", ()=>{
             alert("Child Was clicked")
         })
+       
        
     </script>
 </body>
