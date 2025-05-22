@@ -17,8 +17,20 @@
     <script>
      let button = document.getElementById("btn")
      button.addEventListener("click", ()=>{
+    document.querySelector(".box").innerHTML = "<b> Yayy you were clicked</b> Enjoy your click!"
         alert("I was clicked. Yay")
      })
+
+
+     button.addEventListener("contextmenu", ()=>{
+   
+        alert("Dont hack us by Right click Please")
+     })
+
+button.addEventListener("keydown",()=>{
+    alert("Dont hack us by RIght click Please")
+})
+
     </script>
 </body>
 </html>
