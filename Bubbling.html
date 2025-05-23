@@ -30,25 +30,30 @@
 </head>
 <body>
     <div class="container">
-        <span class="childContainer">
+        <section class="childContainer">
             <div class="child">
                 I am a child
             </div>
-        </span>
+        </section>
     </div>
     <script>
-        document.querySelector(".child").addEventListener("contextmenu", ()=>{
-            alert("Child Was clicked")
+        document.querySelector(".child").addEventListener("click", (e)=>{
+            e.stopPropagation()
+            alert("child Was clicked")
         })
        
-        document.querySelector(".childContainer").addEventListener("click", ()=>{
+        document.querySelector(".childContainer").addEventListener("click", (e)=>{
+            e.stopPropagation()
             alert("ChildContainer Was clicked")
         })
 
-        document.querySelector(".child").addEventListener("", ()=>{
-            alert("Child Was clicked")
+        document.querySelector(".container").addEventListener("click", (e)=>{
+            // e.stopPropagation()
+            alert("container Was clicked")
         })
-       
+       setInterval(()=>{
+        document.querySelector(".childContainer").style.background
+       },3000);
        
     </script>
 </body>
