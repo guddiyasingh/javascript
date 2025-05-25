@@ -16,7 +16,18 @@ setTimeout(()=>{
 
 setTimeout(()=>{
     console.log("I am inside settimeout 2")
-},0)
+},0);
+
+console.log("THe end")
+
+const fn = () =>{
+    console.log("Nothing")
+}
+
+const callback = (arg,fn) =>{
+    console.log(arg)
+    fn()
+}
     </script>
 </body>
 </html>
