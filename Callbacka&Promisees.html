@@ -28,6 +28,14 @@ const callback = (arg,fn) =>{
     console.log(arg)
     fn()
 }
+
+const loadScript = (src,callback) =>{
+
+    let sc = document.createElement("script");
+    sc.src =src;
+    sc.onload = callback("Harry");
+    document.head.append(sc)
+}
     </script>
 </body>
 </html>
