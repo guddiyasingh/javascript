@@ -29,12 +29,20 @@ const callback = (arg,fn) =>{
     fn()
 }
 
-const loadScript = (src,callback) =>{
+// const loadScript = (src,callback) =>{
+
+//     let sc = document.createElement("script");
+//     sc.src =src;
+//     sc.onload = callback("Harry");
+//     document.head.append(sc)
+// }
+
+
+const loadScript = (src,callback) => {
 
     let sc = document.createElement("script");
-    sc.src =src;
+    sc.src = src;
     sc.onload = callback("Harry");
-    document.head.append(sc)
 }
     </script>
 </body>
