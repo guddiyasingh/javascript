@@ -31,4 +31,6 @@ else{
 
 prom1.then((a) =>{
     console.log(a)
+}).catch((err) =>{
+   console.log(err) 
 })
