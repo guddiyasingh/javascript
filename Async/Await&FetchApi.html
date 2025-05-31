@@ -8,13 +8,13 @@
 <body>
     <script>
 
-        function getData(){
-      return new Promise((resolve,reject)=>{
-        setTimeout(() =>{
-            resolve(455)
-        },3500);
-      })
-        }
+      //   function getData(){
+      // return new Promise((resolve,reject)=>{
+      //   setTimeout(() =>{
+      //       resolve(455)
+      //   },3500);
+      // })
+       // }
 
      async function getData() {
       
@@ -31,8 +31,7 @@
       let data = await getData()
       console.log(data)
      }   
-
-
+     main()
      console.log("Loading modules");
      console.log("Do something else");
      console.log("Load data");
