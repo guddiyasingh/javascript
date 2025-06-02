@@ -9,9 +9,18 @@
     <script>
        let a = prompt("Enter first number");
        let b = prompt("Enter second number");
+       if(isNaN(a) || isNaN(b)){
+        throw SyntaxError("Sorry this is not allowed")
+       }
     //    let sum = a+b;
     let sum = parseInt(a)+parseInt(b)
-       console.log("The sum is", sum)
+
+    try{
+        console.log("The sum is", sum)
+    }catch (error){
+        console.log("Error aa gaya bhai")
+    }
+      
     </script>
 </body>
 </html>
