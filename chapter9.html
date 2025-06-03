@@ -29,9 +29,23 @@
    })
    .catch(error =>{
     console.error(error);
-    alert('Failed to load script.')
+    alert('Failed to load script.');
    })
+// another examplle
 
+let promise = new Promise(function(resolve, reject){
+    let success = true;
+
+    setTimeout(() =>{
+
+        if(success){
+            resolve("It worked!");
+        }
+        else {
+            reject("It failed")
+        }
+    },1000); // 1  second delay
+})
     </script>
     
 </body>
