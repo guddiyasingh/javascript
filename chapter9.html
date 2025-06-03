@@ -48,7 +48,14 @@ let promise = new Promise(function(resolve, reject){
 })
 //Handle the result
 
+promise 
+.then(result => {
+    console.log(result);//"It worked!"
+})
 
+.catch(error =>{
+    console.log(error);//If it fails
+})
     </script>
     
 </body>
