@@ -21,6 +21,17 @@
         })
     }
 
+   // call the function and handle with  .then()
+   loadScript('example.js') //Replace with your js file
+   
+   .then(() =>{
+    alert('Script loaded successfully!');
+   })
+   .catch(error =>{
+    console.error(error);
+    alert('Failed to load script.')
+   })
+
     </script>
     
 </body>
