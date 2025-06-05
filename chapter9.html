@@ -83,8 +83,17 @@ function  rejectAfter3Seconds(){
  return  new Promise((_,reject)=>{
     setTimeout(() =>{
         reject("Promise rejected after 3 seconds")
-    }, )
-})
+    }, 3000);
+});
+}
+
+// Async function to use await and handle error
+
+async function handlePromise(){
+    try{
+        const result = await rejectAfter3Seconds();
+        console.log("Result:",result);
+    }
 }
 
 
