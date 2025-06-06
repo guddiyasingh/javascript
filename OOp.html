@@ -12,9 +12,15 @@
         b: "Harry"
     }  
     console.log(obj)
+
+    let animal = {
+        eats: true
+    }
     let rabbit = {
         jump: true
     }  
+
+    rabbit._proto_ = animal ;//sets  rabbit.[[Prototype]] = animal
     </script>
 </body>
 </html>
