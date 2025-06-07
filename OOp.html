@@ -24,7 +24,8 @@
 
   class Animal {
 
-    constructor () {
+    constructor (name) {
+        this.name = name
         console.log ("object is created ...")
 
     }
@@ -36,6 +37,14 @@
     console.log("kud rha hoon")
    }
   }  
+  class Lion extends Animal{
+    // constructor(name){
+    //     this.name = name
+    //     console.log("Object is created and he is a lion....")
+    // }
+  }
+  let a = new Animal("Banny");
+  cosole.log(a)
     </script>
 </body>
 </html>
