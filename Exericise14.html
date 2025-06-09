@@ -58,7 +58,7 @@ const addItem = async (item)=>{
 
      async function main(){
       
-     setInterval(() =>{
+     let t = setInterval(() =>{
       let last = document.body.lastElementChild;
       if(last.innerHTML.endsWith("...")){
         last.innerHTML = last.innerHTML.slice(0, last.innerHTML.length-3)
@@ -82,7 +82,8 @@ const addItem = async (item)=>{
       for (const item of text){
       await addItem(item)
       }
-
+     await randomDelay() 
+     clearInterval(t)
     }
     main()
     </script>
