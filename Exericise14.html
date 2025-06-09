@@ -60,14 +60,19 @@ const addItem = async (item)=>{
       
      setInterval(() =>{
       let last = document.body.lastElementChild;
-     
+      if(last.innerHTML.endsWith("...")){
+        last.innerHTML = last.innerHTML.slice(0, last.innerHTML.length-3)
+      }
+       else{
+        last.innerHTML = last.innerHTML + "."
+       }
 
-     }, 700);
+     }, 100);
 
 
 
 
-      let text = ["Initiatlizing Hacking....",
+      let text = ["Initiatlizing Hacking now reading your data....",
         "Reading your Files....",
         "Password files Detected....",
         "Sending all passwords and personal files to server...",
