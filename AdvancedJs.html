@@ -24,6 +24,9 @@
     console.log(x,y , rest);
     
    })()
+function sum(a,b,c){
+    return a+b+c
+}
 
 let obj = {
 
@@ -32,6 +35,16 @@ let obj = {
     c:3
 }
      let {a,b} = obj 
+     console.log(a,b);
+
+     let arr = [1,2,6]
+    // console.log(arr[0] + arr[1] + arr[2])
+    // console.log(sum(arr[0], arr[1],arr[2]))
+    // console.log(sum(...arr))
+
+    const arr1 = [1,7,11]
+    const obj1 = {...arr}
+    console.log(obj1)
     </script>
 </body>
 </html>
