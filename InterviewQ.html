@@ -7,7 +7,31 @@
 </head>
 <body>
     <script>
-        
+
+/*The Magical sorting Hat: Imagine you are creating  a Magical sorting hat for a wizard school. 
+  Implement a javaScript function that takes an array of student names and assigns time to one of the 
+  four houses (Gryffindor (lenght less than 6),Hufflepuff(lenght less a than 8),Revenclaw(length less
+  than 12 or Slytherin(lenght grater than or equal to 12) based on the lenght of their names.)
+  ) */
+ let students = ["shubh","anajali","shivani","shivam","Annapurna","shubham","krishnanendu",
+    "Ravindranathm","Shivesh","Kaif","Enanuel"
+ ]
+  let houses = []
+
+  for (const student of students){
+    if(student.length <6){
+        houses.append("Gryffindor")
+    }
+    else if(student.length < 8){
+        houses.append("Hufflepuff")
+    }
+    else if(student.length < 12){
+        houses.append("Ravenclaw")
+    }
+    else{
+        houses.append("slytherin")
+    }
+  }
     </script>
 </body>
 </html>
