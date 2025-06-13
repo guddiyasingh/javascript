@@ -7,6 +7,13 @@
 </head>
 <body>
     <script>
+     
+     if(localStorage.getItem("name")){
+        a = localStorage.getItem("name")
+        document.write("Welcome" + a)
+     }
+
+
         let a = prompt("ENter your name")
         console.log(a)
         document.write("Welcome" + a)
