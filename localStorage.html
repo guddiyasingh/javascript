@@ -13,11 +13,19 @@
     }
 
 
-     if(localStorage.getItem("name")){
-        a = localStorage.getItem("name")
-        document.write("Welcome" + a)
-     }
+    //  if(localStorage.getItem("name")){
+    //     a = localStorage.getItem("name")
+    //     document.write("Welcome" + a)
+    //  }
 
+    let note = localStorage.getItem("note")
+    if(note){
+        document.write(note)
+    }
+
+    document.querySelector("button").addEventListener(
+        
+    )
      else{
         let a = prompt("Enter your name")
     
