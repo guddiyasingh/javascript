@@ -8,16 +8,23 @@
 <body>
     <script>
      
+    function saveNoteToLocalStorage(note){
+        localStorage.setItem("note",note)
+    }
+
+
      if(localStorage.getItem("name")){
         a = localStorage.getItem("name")
         document.write("Welcome" + a)
      }
 
+     else{
+        let a = prompt("Enter your name")
+    
+        localStorage.setItem("name", a)
+         document.write("Welcome" + a)
+      }
 
-        let a = prompt("ENter your name")
-        console.log(a)
-        document.write("Welcome" + a)
-        localStorage.setItem("name", " ", a)
     </script>
 </body>
 </html>
