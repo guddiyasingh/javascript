@@ -12,7 +12,6 @@
         localStorage.setItem("note",note)
     }
 
-
     //  if(localStorage.getItem("name")){
     //     a = localStorage.getItem("name")
     //     document.write("Welcome" + a)
@@ -20,18 +19,25 @@
 
     let note = localStorage.getItem("note")
     if(note){
+        document.querySelector(".note").innerHTML(note)
+    }
+
+    document.querySelector("button").addEventListener
+    ("click",()=>{
+        let note = prompt("Enter your note")
+        saveNoteToLocalStorage(note)
         document.write(note)
     }
 
-    document.querySelector("button").addEventListener(
-        
     )
-     else{
-        let a = prompt("Enter your name")
     
-        localStorage.setItem("name", a)
-         document.write("Welcome" + a)
-      }
+
+    //  else{
+    //     let a = prompt("Enter your name")
+    
+    //     localStorage.setItem("name", a)
+    //      document.write("Welcome" + a)
+    //   }
 
     </script>
 </body>
